@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Minecraft</title>
+        
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Google Fonts: Press Start 2P & VT323 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-secondary mb-4 position-relative" style="z-index: 10;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="minecraft-logo-8.png" alt="Minecraft">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="https://www.minecraft.net" target="_blank">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Choose
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="bedrock.html">Bedrock</a></li>
+                    <li><a class="dropdown-item" href="education.html">Education</a></li>
+                </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+
+        <!-- WRAPPER UNTUK BACKGROUND-->
+        <div class="position-relative overflow-hidden py-4">
+        
+        <!-- BACKGROUND IMAGE -->
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="z-index: 1;">
+            <img src="mc3.jpg" class="w-100 h-100 object-fit-cover opacity-25" alt="Background">
+        </div>
+        <div class="position-relative" style="z-index: 2;">
+            
+            <!-- HEADER / QUOTE -->
+            <header class="text-center mb-5">
+            <h1 class="display-6 fw-bold text-warning mb-2">MINECRAFT JAVA</h1>
+            <p class="subtitle-with-lines text-body-secondary m-0">
+                Play it in your Laptop/PC
+            </p>
+            </header>
+
+            <!-- DESCRIPTION LIST -->
+            <section class="container my-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-9 p-4 bg-dark bg-opacity-75 rounded border border-secondary shadow-lg">
+                <dl class="row text-start mb-0">
+                <dt class="col-sm-4 text-warning">Game Description</dt>
+                <dd class="col-sm-8">Minecraft: Java Edition is the original version of Minecraft developed by Mojang Studios, built specifically for PC, Mac, and Linux platforms. Known for its high flexibility, Java Edition allows players to heavily customize their gameplay with custom mods, community-created shaders, custom skins, and private dedicated servers. It features cross-platform multiplayer specifically between Windows, macOS, and Linux users.</dd>
+
+                <dt class="col-sm-4 text-warning mt-2">Specification</dt>
+                <dd class="col-sm-8 mt-2">
+                <p class="mb-1">Recommended System Requirements:</p>
+                <ul class="mb-0 text-muted ps-3">
+                    <li>OS: 64-bit Windows 10/11, macOS 10.14.5+, or Linux</li>
+                    <li>CPU: Intel Core i5-4690 3.5GHz / AMD A10-7800 3.5 GHz or better</li>
+                    <li>RAM: 8 GB RAM</li>
+                    <li>GPU: NVIDIA GeForce 700 Series / AMD Radeon R9 Series with OpenGL 4.5 support</li>
+                    <li>Storage: 4 GB SSD (allocated for game files and worlds)</li>
+                    <li>Java: Java Runtime Environment (JRE) included with the launcher</li>
+                </ul>
+                </dd>
+
+                <dt class="col-sm-4 text-warning mt-2">Price</dt>
+                <dd class="col-sm-8 mt-2">Rp489.000 (Bundled with Bedrock Edition on PC)</dd>
+
+                <dt class="col-sm-4 text-truncate text-warning mt-2">Platform</dt>
+                <dd class="col-sm-8 mt-2">Windows / macOS / Linux</dd>
+
+                <dt class="col-sm-4 text-warning mt-2">Subscription</dt>
+                <dd class="col-sm-8 mt-2">No (One-time purchase; optional for Realms multiplayer servers)</dd>
+                </dl>
+                </div>
+            </div>
+            </section>
+
+        </div>
+        </div>
+
+        <!-- JS Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
